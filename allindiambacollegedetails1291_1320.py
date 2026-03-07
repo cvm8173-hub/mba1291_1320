@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/st-joseph-s-pg-college-warangal-148475",
   "https://www.shiksha.com/college/wisdom-school-of-management-wsm-powered-by-sunstone-coimbatore-204899",
   "https://www.shiksha.com/college/mes-advanced-institute-of-management-and-technology-kochi-48206",
-  "https://www.shiksha.com/college/kalyan-post-graduate-college-bhilai-nagar-durg-72581",
-  "https://www.shiksha.com/university/kishkinda-university-ballari-228729",
-  "https://www.shiksha.com/college/loyola-institute-of-technology-and-science-lites-kanyakumari-42602",
-  "https://www.shiksha.com/college/thirumalai-engineering-college-kanchipuram-61453",
-  "https://www.shiksha.com/college/gouthami-p-g-college-nizamabad-62095",
-  "https://www.shiksha.com/college/university-post-graduate-college-godavarikhani-satavahana-university-telangana-other-68409",
-  "https://www.shiksha.com/college/shri-sunshine-education-trust-group-of-institute-rajkot-69261",
+  # "https://www.shiksha.com/college/kalyan-post-graduate-college-bhilai-nagar-durg-72581",
+  # "https://www.shiksha.com/university/kishkinda-university-ballari-228729",
+  # "https://www.shiksha.com/college/loyola-institute-of-technology-and-science-lites-kanyakumari-42602",
+  # "https://www.shiksha.com/college/thirumalai-engineering-college-kanchipuram-61453",
+  # "https://www.shiksha.com/college/gouthami-p-g-college-nizamabad-62095",
+  # "https://www.shiksha.com/college/university-post-graduate-college-godavarikhani-satavahana-university-telangana-other-68409",
+  # "https://www.shiksha.com/college/shri-sunshine-education-trust-group-of-institute-rajkot-69261",
 ]
 
 
