@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ssm-college-of-engineering-namakkal-31549",
-  "https://www.shiksha.com/college/siitam-sun-international-institute-of-tourism-and-management-hyderabad-ramnagar-33259",
-  "https://www.shiksha.com/college/ojaswini-institute-of-management-technology-madhya-pradesh-other-43395",
-  "https://www.shiksha.com/college/anwar-ul-uloom-college-for-computer-studies-hyderabad-62031",
-  "https://www.shiksha.com/college/dr-h-n-national-college-of-engineering-bangalore-231094",
-  "https://www.shiksha.com/college/dbs-global-university-powered-by-emversity-dehradun-237156",
-  "https://www.shiksha.com/college/mount-carmel-institute-of-management-for-women-palace-road-bangalore-511",
-  "https://www.shiksha.com/college/s-p-more-college-navi-mumbai-26892",
-  "https://www.shiksha.com/college/mit-school-of-distance-education-kothrud-pune-44330",
-  "https://www.shiksha.com/college/madras-institute-of-fashion-technology-mift-vadapalani-chennai-48722",
-  "https://www.shiksha.com/college/sakthi-institute-of-information-and-management-studies-coimbatore-75431",
-  "https://www.shiksha.com/college/oxford-college-of-management-indore-147263",
-  "https://www.shiksha.com/college/nicmar-delhi-ncr-jhajjar-231402",
-  "https://www.shiksha.com/university/jigyasa-university-dehradun-25104",
-  "https://www.shiksha.com/college/sana-engineering-college-telangana-other-42637",
-  "https://www.shiksha.com/college/akshaya-institute-of-management-studies-coimbatore-43361",
-  "https://www.shiksha.com/college/mittal-institute-of-technology-bhopal-52764",
-  "https://www.shiksha.com/college/nagarjuna-college-of-management-studies-chikballpura-69431",
-  "https://www.shiksha.com/college/vimal-jyothi-institute-of-management-and-research-kannur-146997",
-  "https://www.shiksha.com/college/santhigiri-institute-of-management-idukki-147013",
-  "https://www.shiksha.com/college/st-joseph-s-pg-college-warangal-148475",
-  "https://www.shiksha.com/college/wisdom-school-of-management-wsm-powered-by-sunstone-coimbatore-204899",
-  "https://www.shiksha.com/college/mes-advanced-institute-of-management-and-technology-kochi-48206",
-  # "https://www.shiksha.com/college/kalyan-post-graduate-college-bhilai-nagar-durg-72581",
-  # "https://www.shiksha.com/university/kishkinda-university-ballari-228729",
-  # "https://www.shiksha.com/college/loyola-institute-of-technology-and-science-lites-kanyakumari-42602",
-  # "https://www.shiksha.com/college/thirumalai-engineering-college-kanchipuram-61453",
-  # "https://www.shiksha.com/college/gouthami-p-g-college-nizamabad-62095",
-  # "https://www.shiksha.com/college/university-post-graduate-college-godavarikhani-satavahana-university-telangana-other-68409",
-  # "https://www.shiksha.com/college/shri-sunshine-education-trust-group-of-institute-rajkot-69261",
+  # "https://www.shiksha.com/college/ssm-college-of-engineering-namakkal-31549",
+  # "https://www.shiksha.com/college/siitam-sun-international-institute-of-tourism-and-management-hyderabad-ramnagar-33259",
+  # "https://www.shiksha.com/college/ojaswini-institute-of-management-technology-madhya-pradesh-other-43395",
+  # "https://www.shiksha.com/college/anwar-ul-uloom-college-for-computer-studies-hyderabad-62031",
+  # "https://www.shiksha.com/college/dr-h-n-national-college-of-engineering-bangalore-231094",
+  # "https://www.shiksha.com/college/dbs-global-university-powered-by-emversity-dehradun-237156",
+  # "https://www.shiksha.com/college/mount-carmel-institute-of-management-for-women-palace-road-bangalore-511",
+  # "https://www.shiksha.com/college/s-p-more-college-navi-mumbai-26892",
+  # "https://www.shiksha.com/college/mit-school-of-distance-education-kothrud-pune-44330",
+  # "https://www.shiksha.com/college/madras-institute-of-fashion-technology-mift-vadapalani-chennai-48722",
+  # "https://www.shiksha.com/college/sakthi-institute-of-information-and-management-studies-coimbatore-75431",
+  # "https://www.shiksha.com/college/oxford-college-of-management-indore-147263",
+  # "https://www.shiksha.com/college/nicmar-delhi-ncr-jhajjar-231402",
+  # "https://www.shiksha.com/university/jigyasa-university-dehradun-25104",
+  # "https://www.shiksha.com/college/sana-engineering-college-telangana-other-42637",
+  # "https://www.shiksha.com/college/akshaya-institute-of-management-studies-coimbatore-43361",
+  # "https://www.shiksha.com/college/mittal-institute-of-technology-bhopal-52764",
+  # "https://www.shiksha.com/college/nagarjuna-college-of-management-studies-chikballpura-69431",
+  # "https://www.shiksha.com/college/vimal-jyothi-institute-of-management-and-research-kannur-146997",
+  # "https://www.shiksha.com/college/santhigiri-institute-of-management-idukki-147013",
+  # "https://www.shiksha.com/college/st-joseph-s-pg-college-warangal-148475",
+  # "https://www.shiksha.com/college/wisdom-school-of-management-wsm-powered-by-sunstone-coimbatore-204899",
+  # "https://www.shiksha.com/college/mes-advanced-institute-of-management-and-technology-kochi-48206",
+  "https://www.shiksha.com/college/kalyan-post-graduate-college-bhilai-nagar-durg-72581",
+  "https://www.shiksha.com/university/kishkinda-university-ballari-228729",
+  "https://www.shiksha.com/college/loyola-institute-of-technology-and-science-lites-kanyakumari-42602",
+  "https://www.shiksha.com/college/thirumalai-engineering-college-kanchipuram-61453",
+  "https://www.shiksha.com/college/gouthami-p-g-college-nizamabad-62095",
+  "https://www.shiksha.com/college/university-post-graduate-college-godavarikhani-satavahana-university-telangana-other-68409",
+  "https://www.shiksha.com/college/shri-sunshine-education-trust-group-of-institute-rajkot-69261",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1291
+    c_count =1314
 
     try:
         for base_url in BASE_URL:
