@@ -8634,6 +8634,8 @@ def parse_review_summarisation_all_tabs(driver,URLS):
     wait = WebDriverWait(driver, 15)
 
 
+    section = None
+    
     try:
         section = wait.until(
             EC.presence_of_element_located(
@@ -8642,11 +8644,11 @@ def parse_review_summarisation_all_tabs(driver,URLS):
         )
     except:
         print("⚠️ parse_review_summarisation_all_tabs not available, skipping")
-        return None
-
-    driver.execute_script(
-        "arguments[0].scrollIntoView({block:'center'});", section
-    )
+    
+    if section:
+        driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});", section
+        )
     time.sleep(2)
 
     final_data = {
