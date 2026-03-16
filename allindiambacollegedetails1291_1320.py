@@ -8646,11 +8646,11 @@ def parse_review_summarisation_all_tabs(driver,URLS):
     }
 
     # Heading
-    try:
-        heading = section.find_element(By.CLASS_NAME, "rvwSmSecHeading")
-        final_data["heading"] = heading.text.strip()
-    except:
-        pass
+    if section is None:
+        return {}
+
+    heading = section.find_element(By.CLASS_NAME, "rvwSmSecHeading")
+    final_data["heading"] = heading.text.strip()
 
     # All tabs
     tabs = section.find_elements(By.CLASS_NAME, "rvwSmTabItem")
